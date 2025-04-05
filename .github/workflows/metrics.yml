@@ -14,21 +14,19 @@ jobs:
     permissions:
       contents: write
     steps:
-
-        
         - name: Half-year calendar
-        if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
-        with:
+          if: ${{ success() || failure() }}
+          uses: lowlighter/metrics@latest
+          with:
             filename: metrics.plugin.isocalendar.svg
             token: ${{ secrets.METRICS_TOKEN }}
             base: ""
             plugin_isocalendar_duration: half-year
 
         - name: Most used (with details)
-        if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
-        with:
+          if: ${{ success() || failure() }}
+          uses: lowlighter/metrics@latest
+          with:
             filename: metrics.plugin.languages.details.svg
             token: ${{ secrets.METRICS_TOKEN }}
             base: ""
