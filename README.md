@@ -1,1 +1,4 @@
-[<img align="left" width="390" src="https://gist.githubusercontent.com/samuelFain/SamuelFain/raw/metrics.plugin.isocalendar.svg">](#)
+
+![Metrics](/github-metrics.svg)
+![Metrics](/metrics.plugin.isocalendar.svg)
+![Metrics](/metrics.plugin.languages.details.svg)
