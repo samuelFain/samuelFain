@@ -21,9 +21,9 @@ jobs:
             filename: metrics.plugin.isocalendar.svg
             token: ${{ secrets.METRICS_TOKEN }}
             base: ""
-            plugin_isocalendar_duration: half-year
+            plugin_isocalendar: yes
 
-        - name: Most used (with details)
+        - name: Most used langs
           if: ${{ success() || failure() }}
           uses: lowlighter/metrics@latest
           with:
@@ -36,3 +36,12 @@ jobs:
                 gnuplot
             plugin_languages_details: bytes-size, percentage
             plugin_languages_limit: 4
+
+        - name: Achievements
+          uses: lowlighter/metrics@latest
+          with:
+            filename: metrics.plugin.achievements.svg
+            token: ${{ secrets.METRICS_TOKEN }}
+            base: ""
+            plugin_achievements: yes
+            plugin_achievements_only: sponsor, maintainer, octonaut
