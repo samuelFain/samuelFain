@@ -14,12 +14,7 @@ jobs:
     permissions:
       contents: write
     steps:
-        - name: Default metrics
-          uses: lowlighter/metrics@latest
-          with:
-            filename: metrics.base.svg
-            token: ${{ secrets.METRICS_TOKEN }}
-    
+
         - name: Half-year calendar
           if: ${{ success() || failure() }}
           uses: lowlighter/metrics@latest
