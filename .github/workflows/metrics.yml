@@ -19,8 +19,6 @@ jobs:
           with:
             filename: metrics.base.svg
             token: ${{ secrets.METRICS_TOKEN }}
-            base: repositories_affiliations
-            repositories_affiliations: owner,collaborator,organization_member
     
         - name: Half-year calendar
           if: ${{ success() || failure() }}
