@@ -1,4 +1,2 @@
-# ![Metrics](/metrics.plugin.isocalendar.svg)
-
-![Metrics](https://metrics.lecoq.io/samuelFain)
+![Metrics](/metrics.plugin.isocalendar.svg)
 
