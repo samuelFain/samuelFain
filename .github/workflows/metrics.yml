@@ -30,16 +30,4 @@ jobs:
             plugin_languages_limit: 4
             plugin_achievements: yes
             plugin_achievements_display: compact
-        - name: 📆 Commit calendar - Full history calendar
-          uses: lowlighter/metrics@master
-          with:
-            filename: metrics.plugin.calendar.full.svg
-            token: ${{ secrets.METRICS_TOKEN }}
-            base: ""
-            plugin_calendar: yes
-            plugin_calendar_limit: 0
-            output_action: none
-            delay: 120
-            user: lowlighter
-            plugins_errors_fatal: yes
             
