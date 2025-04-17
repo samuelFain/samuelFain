@@ -23,7 +23,7 @@ jobs:
             token: ${{ secrets.METRICS_TOKEN }}
             base: ""
             plugin_topics: yes
-            plugin_topics_limit: 2
+            plugin_topics_limit: 3
             plugin_topics_mode: icons
             # plugin_isocalendar: yes
             # plugin_languages: yes
