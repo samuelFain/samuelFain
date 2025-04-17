@@ -15,7 +15,7 @@ jobs:
       contents: write
     steps:
 
-        - name: Half-year calendar
+        - name: Metrics
           if: ${{ success() || failure() }}
           uses: lowlighter/metrics@latest
           with:
