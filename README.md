@@ -1,2 +1,1 @@
-![Metrics](/metrics.plugin.isocalendar.svg)
-
+<img src="/metrics.plugin.isocalendar.svg" alt="Metrics" width="100%">
